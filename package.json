@@ -1,0 +1,10 @@
+{
+  "name": "alex-trader-iq-option",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Signal-only BTC/USD chart screenshot analyzer for IQ Option workflows",
+  "type": "module",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^5.1.0", "openai": "^5.12.2", "multer": "^2.0.2" }
+}
